@@ -7,11 +7,11 @@ function validate() {
     alert("Password too short");
   }
   // window.redirect("/index.html");
-  if (pwd="qwertyuiop") {
+  if (pwd==="qwertyuiop") {
     alert("Valid Password");
-    window.location.href = "index.html";
-    pwd="";
+    window.location.href = "1.html";
   } else {
+    document.getElementById('pwd').value='';
     alert("Invalid Password");
   }
 }

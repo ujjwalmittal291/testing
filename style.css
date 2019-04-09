@@ -42,9 +42,9 @@ body{
     width: 30%;
     /* flex-direction: column; */
   }
+}
 @media (max-width:500px) {
   .logincontainer{
     width:70%;
   }
-}
 }

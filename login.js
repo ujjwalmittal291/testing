@@ -5,13 +5,13 @@ function validate() {
   if(pwd.length<8){
     document.getElementById('pwd').value='';
     alert("Password too short");
-  }
-  // window.redirect("/index.html");
-  if (pwd==="qwertyuiop") {
+  } else if (pwd==="qwertyuiop") {
     alert("Valid Password");
     window.location.href = "1.html";
   } else {
     document.getElementById('pwd').value='';
     alert("Invalid Password");
-  }
+  } 
+  // window.redirect("/index.html");
+  
 }

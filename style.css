@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+body{
+  padding-top:100px;
+  background-color: grey;
+}
+
+.logincontainer{
+  margin: auto;
+  border-radius: 5px;
+  width: 30%;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  background-color: White;
+}
+
+.logintable{
+  border-radius: 5px;
+  margin: auto;
+  background-color: Grey;
+  padding: 10px;
+  max-width: 90%;
+}
+
+.logintable td{
+  text-align: left;
+}
+
+.logintable input{
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width:1200px) {
+  .logincontainer{
+    width: 30%;
+    /* flex-direction: column; */
+  }
+@media (max-width:500px) {
+  .logincontainer{
+    width:70%;
+  }
+}
+}

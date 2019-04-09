@@ -10,6 +10,7 @@ function validate() {
   if (pwd="qwertyuiop") {
     alert("Valid Password");
     window.location.href = "index.html";
+    pwd="";
   } else {
     alert("Invalid Password");
   }

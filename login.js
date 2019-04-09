@@ -12,6 +12,6 @@ function validate() {
     document.getElementById('pwd').value='';
     alert("Invalid Password");
   } 
-  // window.redirect("/index.html");
+  // window.redirect("/index.html"); Does not work
   
 }
